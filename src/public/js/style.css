@@ -1,0 +1,120 @@
+body {
+  background-color: cadetblue;
+  position: relative;
+}
+main {
+  position: relative;
+}
+
+header h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 200px;
+}
+#call {
+  margin-top: 10em;
+  margin-left: 15em;
+}
+#myStream {
+  position: relative;
+}
+#myStream button {
+  border-radius: 5px;
+}
+#mute {
+  position: absolute;
+  top: 180px;
+  left: -10px;
+}
+#camera {
+  position: absolute;
+  top: 180px;
+  left: 80px;
+}
+#cameras {
+  position: absolute;
+  left: -10px;
+  border-radius: 5px;
+}
+#peerFace {
+  position: absolute;
+  top: 0.3em;
+}
+#welcome {
+  position: absolute;
+  top: 20em;
+  left: 40em;
+}
+#chating {
+  width: 50vw;
+  height: 80vh;
+  position: absolute;
+  left: 10em;
+  background-color: bisque;
+  border-radius: 5px;
+}
+#chating ul {
+  width: 100%;
+  list-style: none;
+  font-style: italic;
+}
+#chating li {
+  width: 100%;
+}
+
+#roomname {
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+#roomname input {
+  box-shadow: 10px 5px 5px black;
+  background-color: beige;
+  border-radius: 5px;
+  width: 300px;
+  height: 50px;
+  font-size: large;
+}
+
+#roomname button {
+  border-radius: 50%;
+  background-color: none;
+}
+
+h4 {
+  position: absolute;
+  top: 20em;
+  left: 20em;
+}
+#call {
+  position: absolute;
+  left: 3em;
+}
+#peerFace {
+  position: absolute;
+  left: 70em;
+  right: 0em;
+  bottom: 5em;
+}
+
+#msg {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  background-color: beige;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 25px;
+  align-items: center;
+  box-sizing: border-box;
+  gap: 10px;
+}
+#msg input {
+  width: 100%;
+}
+#msg button {
+  background-color: chocolate;
+}
